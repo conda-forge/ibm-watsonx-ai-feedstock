@@ -3,7 +3,7 @@
 schema_version: 1
 
 context:
-  version: "1.5.14"
+  version: "1.6.1"
   # Upstream requires-python is >=3.11,<3.15, so override the global 3.10 floor.
   python_min: "3.11"
 
@@ -13,7 +13,7 @@ package:
 
 source:
   - url: https://pypi.org/packages/source/i/ibm-watsonx-ai/ibm_watsonx_ai-${{ version }}.tar.gz
-    sha256: a756488bd57e87c0fc51be42dcba871143cfe0ac1e805c497c5047e1e4f13e9d
+    sha256: f73e6414b6188e4eb53a15e2aaf7437ee3e8868150ae4a61c063afbedd3e1dc5
   # The PyPI sdist ships no license file (upstream packaging bug). Pull it from
   # the repo, pinned to a commit on the default branch (the repo publishes no tags).
   - url: https://raw.githubusercontent.com/IBM/watsonx-ai-python-sdk/67d74911f6159d971ef01ebfddb667fdd43b59df/LICENSE
